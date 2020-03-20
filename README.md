@@ -15,3 +15,7 @@ Group 6: Chandana(10539269), Jayabalaji(10537723), Kingsley(10527084)
 Considering Movie Booking system.
 Planning to implement using SQLite with Flask user UI
 Considering and assessing the feasibility of using TKInter for Admin interface
+
+Research material:
+https://docs.python.org/3/library/sqlite3.html
+https://flask.palletsprojects.com/en/1.1.x/
