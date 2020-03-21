@@ -3,7 +3,7 @@ from flask_mysqldb import MySQL
 
 app = Flask(__name__)
 
-# MYSQL CONFIGURATION
+# MYSQL Configuration
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'jayabalaji'
@@ -12,7 +12,7 @@ app.config['MYSQL_DB'] = 'DBS'
 mysql = MySQL(app)
 
 
-# python flask api to Fetch the data from Database
+# Python Flask API to fetch the data from MYSQL
 @app.route('/')
 def home():
     cur = mysql.connection.cursor()
