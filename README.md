@@ -17,5 +17,11 @@ Planning to implement using SQLite with Flask user UI
 Considering and assessing the feasibility of using TKInter for Admin interface
 
 Research material:
-https://docs.python.org/3/library/sqlite3.html
+
+https://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html
 https://flask.palletsprojects.com/en/1.1.x/
+
+We will be using mySQL and flask.
+
+Scenario: Movie booking system
+User requirement: Movie Time system displays movies, their timings and availability of seats based on genres, languages and location, and allows the user to book a movie over the internet. 
