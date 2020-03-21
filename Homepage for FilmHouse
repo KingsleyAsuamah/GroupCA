@@ -1,0 +1,503 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FilmHouse</title>
+
+	<!-- CSS -->
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="css/my-css.css" />
+</head>
+
+<body>
+	<!-- Nav Bar -->
+	<nav class="nav-extended blue-grey darken-1" role="navigation">
+		<div class="container">
+			<div class="nav-wrapper">
+				<a href="index.html" class="brand-logo">FilmHouse</a>
+				<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="hide-on-med-and-down right">
+					<!-- Social media links -->
+					<li>
+						<a href="https://www.facebook.com/" class="btn-floating btn-small transparent">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/kessyswagga" class="btn-floating btn-small transparent">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/kessyasuamah" class="btn-floating btn-small transparent">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+
+					<!-- Search dropdown trigger -->
+					<li>
+						<a class='dropdown-trigger' href='#' data-target='dropdown-search'>
+							<i class="material-icons">search</i>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Search dropdown structure -->
+			<ul id='dropdown-search' class='dropdown-content'>
+				<li>
+					<form>
+						<div class="input-field">
+							<input id="search" type="search" required>
+						</div>
+					</form>
+				</li>
+			</ul>
+
+			<!-- Extended nav bar -->
+			<div class="nav-wrapper">
+				<ul class="hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<a class="dropdown-trigger" href="#!" data-target="dropdown-categories">
+							Categories
+							<i class="material-icons right">arrow_drop_down</i>
+						</a>
+					</li>
+					<li><a href="#about">Buy Ticket</a></li>
+					<li><a href="#about">Seat Reservation</a></li>
+					<li><a href="#about">Contact Us</a></li>
+					<li><a href="#contact">Login</a></li>
+				</ul>
+
+				<!-- Categories dropdown structure -->
+				<ul id='dropdown-categories' class='dropdown-content'>
+					<li><a href="category-1.html">Sci-Fi</a></li>
+					<li><a href="category-2.html">Epic</a></li>
+					<li><a href="category-3.html">Comedy</a></li>
+					<li><a href="category-4.html">Action</a></li>
+					<li><a href="category-5.html">Drama</a></li>
+					<li><a href="category-6.html">Horror</a></li>
+				</ul>
+			</div>
+
+			<!-- Sidenav menu -->
+			<ul id="nav-mobile" class="sidenav collapsible">
+				<li><a href="index.html">Home</a></li>
+				<li>
+					<div class="collapsible-header black-text">
+						<span class="my-li1">Categories <i class="material-icons right">arrow_drop_down</i></span>
+					</div>
+					<div class="collapsible-body black-text">
+						<ul>
+							<li class="my-li2 black-text"><a href="category-1.html">Sci-Fi</a></li>
+							<li class="my-li2 black-text"><a href="category-2.html">Epic</a></li>
+							<li class="my-li2 black-text"><a href="category-3.html">Comedy</a></li>
+							<li class="my-li2 black-text"><a href="category-4.html">Action</a></li>
+							<li class="my-li2 black-text"><a href="category-5.html">Drama</a></li>
+							<li class="my-li2 black-text"><a href="category-6.html">Horror</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Banner placeholder -->
+	<!--<div class="container hide-on-med-and-down my-banner z-depth-1 valign-wrapper">
+		<p class="center-block">728x90 Banner</p>
+	</div> -->
+	
+	  
+	  
+	<!-- Main headlines -->
+	<div class="container">
+		<div class="row">
+			<div class="col s12 l8">
+				<a href="blog-1.html">
+				    <div class="w3-content w3-section" style="max-width:900px">
+					<img class="mySlides w3-animate-top" src="img/sports-1.jpg" style="width:100%">
+					<img class="mySlides w3-animate-bottom" src="img/movie-3.jpg" style="width:100%">
+					<img class="mySlides w3-animate-top" src="img/movie-5.jpg" style="width:100%">
+					<img class="mySlides w3-animate-bottom" src="img/movie-21.jpg" style="width:100%">
+				  </div>
+					<div class="card">
+						<div class="card-image my-card">
+							
+					
+							<!--<img src="img/movie-0.jpeg"> -->
+							<span class="card-title">NEW RELEASE</span>
+						</div>
+					</div>
+				</a>
+			</div>
+		<!--	<div class="col s12 l2">
+				<a href="blog-2.html">
+					<div class="card">
+						<div class="card-image my-card">
+							<img src="img/movie-1.jpg">
+							<span class="card-title">PPLorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+						</div>
+					</div>
+				</a>
+			</div> 
+			<div class="col s12 l3">
+				<a href="blog-3.html">
+					<div class="card">
+						<div class="card-image my-card">
+							<img src="img/movie-1.jpg">
+							<span class="card-title">Dolor</span>
+						</div>
+					</div>
+				</a>
+			</div> -->
+		</div>
+	</div>
+
+	<!-- Blog items -->
+	<!--<div class="container section">
+		<div class="row"> -->
+	<!-- cards -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col m4 s12">
+				<a href="blog-1.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-19.jpg">
+
+							<span class="Card-Title"></span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+			
+			<div class="col m4 s12">
+				<a href="blog-2.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-5.jpg">
+
+							<span class="Card-Title">changer</span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+
+			<div class="col m4 s12">
+				<a href="blog-3.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-20.jpg">
+
+							<span class="Card-Title">This</span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col m4 s12">
+				<a href="blog-1.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-13.jpg">
+
+							<span class="Card-Title">changed</span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+			
+			<div class="col m4 s12">
+				<a href="blog-2.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-7.jpg">
+
+							<span class="Card-Title"></span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+
+			<div class="col m4 s12">
+				<a href="blog-3.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-21.jpg">
+
+							<span class="Card-Title"></span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col m4 s12">
+				<a href="blog-1.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-18.jpg">
+
+							<span class="Card-Title"></span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+			
+			<div class="col m4 s12">
+				<a href="blog-2.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-9.jpg">
+
+							<span class="Card-Title"></span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+
+			<div class="col m4 s12">
+				<a href="blog-3.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-10.jpg">
+
+							<span class="Card-Title"></span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col m4 s12">
+				<a href="blog-1.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-11.jpg">
+
+							<span class="Card-Title"></span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+			
+			<div class="col m4 s12">
+				<a href="blog-2.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-12.jpg">
+
+							<span class="Card-Title"></span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+
+			<div class="col m4 s12">
+				<a href="blog-3.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="img/movie-13.jpg">
+
+							<span class="Card-Title"></span>
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+								industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+								scrambled it to make a type specimen book. </p>
+						</div>
+
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+			
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<footer class="page-footer blue-grey darken-2">
+		<div class="container">
+			<div class="row">
+				<!-- About section -->
+				<div class="col l8 s12 scrollspy" id="about">
+					<h5 class="white-text">FilmHouse Company</h5>
+					<p class="grey-text text-lighten-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
+						vero
+						repellendus modi beatae necessitatibus similique officiis non et maiores dolore ea debitis nemo
+						minima quis
+						quas facilis ad natus deleniti.</p>
+				</div>
+
+				<!-- Contact section -->
+				<div class="col l4 s12 scrollspy" id="contact">
+					<h5 class="white-text">Contact</h5>
+					<p class="grey-text text-lighten-4">
+						<i class="tiny material-icons">email</i> customerservice@company.ie
+					</p>
+					<p class="grey-text text-lighten-4">
+						<i class="tiny material-icons">phone</i> +353 1 899 5555
+					</p>
+					<p class="grey-text text-lighten-4">
+						<i class="tiny material-icons">place</i> 13/14 Aungier St, Dublin, D02 WC04
+					</p>
+					<a class="waves-effect waves-light btn modal-trigger" href="#faq-modal">FAQ</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- FAQ Modal Structure -->
+		<div id="faq-modal" class="modal">
+			<div class="modal-content">
+				<h4 class="indigo-text text-darken-4">Frequently Asked Questions</h4>
+				<ul class="collapsible black-text">
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer-copyright">
+			<div class="container">
+				&copy; Copyright 2020
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.sidenav').sidenav();
+			$('.dropdown-trigger').dropdown(
+				{
+					'coverTrigger': false,
+					'constrainWidth': false,
+					'closeOnClick': false,
+				});
+			$('.scrollspy').scrollSpy();
+			$('.collapsible').collapsible();
+			$('.modal').modal();
+		});
+	</script>
+	<script src="./js/faq.js"></script>
+	<script>
+		var myIndex = 0;
+		carousel();
+		
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 2500);    
+		}
+		</script>
+</body>
+
+</html>
